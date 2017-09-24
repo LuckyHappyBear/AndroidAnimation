@@ -11,7 +11,11 @@
     tools:context="com.luckybear.androidanimation.MainActivity">
 
     <TextView
+        android:id="@+id/tv_animation"
+        android:layout_centerInParent="true"
+        android:gravity="center"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="36dp"
+        android:background="@android:color/holo_blue_dark"
         android:text="Hello World!" />
 </RelativeLayout>
