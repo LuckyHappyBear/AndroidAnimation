@@ -10,8 +10,27 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.luckybear.androidanimation.MainActivity">
 
-    <TextView
+    <ImageView
+        android:id="@+id/iv_demo"
+        android:layout_centerInParent="true"
+        android:background="@mipmap/ic_clever"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_value_alpha"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="ValueAnim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btn_object_alpha"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:text="ObjectAnim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
 </RelativeLayout>
